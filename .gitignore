@@ -1,0 +1,64 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Builds / outputs
+dist/
+build/
+out/
+coverage/
+*.tsbuildinfo
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
+*.swp
+*~
+
+# Remotion
+.remotion/
+
+# Large / regenerable audio masters (keep mp3 beds)
+**/*.wav
+
+# Optional scratch
+tmp/
+temp/
+.cache/
+
+# Dojo session noise (keep DOJO.md)
+.dojo/cache/
+.dojo/scratch/
+
+# pnpm
+.pnpm-store/
+pnpm-debug.log*
+
+# Raw screen captures — keep MP4 finals only
+*.mov
+**/_tmp/
+
+# Intermediate cumulative previews (regenerable, low quality).
+# Ship file is DOJO-REEL-MASTER.mp4 only.
+**/CUMULATIVE-through-*.mp4
+public/sections/15.00.00-final/video/final/DOJO-REEL-FINAL.mp4
+
+# Regenerable intermediates (not needed to watch or rebuild the master)
+**/video/work/
+**/video/cuts/
+**/audio/work/
+public/sections/99.00.00-archive/
+public/generated/
+
+__pycache__/
+*.py[cod]
+.Python

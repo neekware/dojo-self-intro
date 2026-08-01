@@ -1,0 +1,82 @@
+# DOJO.md
+
+## Power Showcase
+
+- Remotion app at **repo root** — use **pnpm**
+- **Canonical assets:** `public/sections/` (symlink `sections/` → same)
+- Section folders: **`MAJOR.MINOR.PATCH-slug`** (zero-padded), e.g. `01.00.00-what-is-dojo`
+  - Majors on `.00.00`; insert with minor (`.10.00`) or patch (`.00.10`) — no full cascade
+  - See `public/sections/README.md` versioning rules
+- Each section: `before/`, `after/`, `video/`, `audio/`, `text/`
+- Index: `public/sections/README.md`
+- Studio: `pnpm dev`
+- Render: `pnpm render` → `out/dojo-power-showcase.mp4`
+- Origin film (Val) stays for “who created you”; main site video is capability-only, no creator face
+- Dojo X packaging: **torii icon only** + cursive X (no griffin on products)
+- Finale **LOCKED**: `15.00.00-final/video/final/LOCKED-15-final.mp4` (**16.085s**)
+  - FINALE card → 12-tile slow-mo montage (tiles stay put) → torii splash + download CTA
+  - **Torii splash is the last frame of the reel**
+- Kids tutor **LOCKED**: `14.00.00-kids-tutor/video/final/LOCKED-14-kids-tutor.mp4` (**28.8s**)
+  - TEACH SAFELY card + VO → girl from 3.018 → quadratic tutor (Sarah) → Access Control
+- Diagrams+equations **LOCKED**: `13.10.00-diagrams-equations/video/final/LOCKED-13.10-diagrams-equations.mp4` (**17.5s**)
+  - 5 diagrams/charts → gravity/light → **quadratic formula** held to close (segue into kids tutor)
+- Multilingual **LOCKED**: `13.00.00-multilingual/video/final/LOCKED-13-multilingual.mp4` (**17.877s**)
+  - Card "Over 30 and growing" + Eve VO → EN → ZH → FA → FR → AR
+  - Cuts derived from VO-onset detection (150ms lead-in) so no clipped consonants
+  - Blog-only 7-language variant in `video/blog/` — not used in the reel
+  - Master order: EN → FR → FA → JA → AR → ES → ZH
+- Kids tutor section **LOCKED**: `public/sections/14.00.00-kids-tutor/video/final/`
+  - Girl → quadratic tutor (Sarah VO) → Access Control (Safe AI for any age)
+- Diagrams section **LOCKED**: `public/sections/13.10.00-diagrams-equations/video/final/`
+  - State machines → flowchart → pie → Tesla/Google chart + native diagrams VO
+- Background bed **LOCKED**: `public/sections/00.00.00-brand/audio/final/bg-bed-locked.mp3`
+  - Mix under VO at **10–15%** (default 12%); v1 minus bad pad + soft pad
+  - **5:00 loop:** `audio/final/bg-bed-locked-5min.mp3` (smooth crossfade repeats)
+- Brand open **LOCKED**: `public/sections/00.00.00-brand/video/final/LOCKED-00-brand-open.mp4` (~13.6s)
+  - **Denoised** — mic static removed, floor −80.8 → −93.3 dB; noisy original in `video/work/LOCKED-00-brand-open-ORIGINAL-NOISY.mp4`
+  - **Gem/girl hero** ~2s → **slow morph** → startup lion/welcome (**no giants in brand**)
+  - Open still: `after/final/brand-open-still-LOCKED-1920x1080.jpg` (connection hero)
+  - Torii splash kept on disk unused: `splash-LOCKED*`
+  - Startup trim: **3.904–16.725** better-audio take → `video/startup/LOCKED-00-startup-open.mp4`
+  - Giants live at **start of What is Dojo**, not brand
+- Reel thumb: `99.00.00-full-reel/after/final/reel-thumb-LOCKED.jpg` (same gem hero)
+- Rule: each section `**/final/` holds **only that section’s deliverable**, not mini-step finals
+- Code **LOCKED**: `02.00.00-stt-talk/video/final/LOCKED-02-stt.mp4` (~15.7s) — one clip: zoom into Dojo IDE → dissolve → zoom out to mic; typing→voice VO (Eve). No competitor branding. Zoom = supersample + integer-centered (no shake). Rebuild: `build-code-section.py`
+- TTS / eyes-evolved **LOCKED**: `02.10.00-tts-listen/video/final/LOCKED-03-tts-listen.mp4` (~11.0s)
+  - Picture cut **10.996s**; one clean Eve take begins **0.500s**; no chopped/repeated pause-tag audio
+  - Rebuild: `node scripts/mux-tts-clean.js`
+- Ears / selective listening **LOCKED**: `02.10.00-tts-listen/video/final/LOCKED-03-ears-listen.mp4` (**8.875s measured**)
+  - Tail-only trim at **8.860s**; head turn **3.650s**; left-anchored 1.68× push; man + Asian woman retained
+  - Tight no-laugh Eve VO starts **0.200s**; rebuild/finalize: `node scripts/trim-ears-final.js`
+- **Lane Assist follows Talk → Listen** in reel order; folder `02.20.00-lane-assist`
+- **Multimedia chapter order (killer first):** try-on `03.00.00-tryon` → architecture `04.00.00-architecture-hq` → products `05`–`07` → characters/promo `08`–`12`
+- Lane Assist **LOCKED + approved standalone**: `public/sections/02.20.00-lane-assist/video/final/LOCKED-lane-assist.mp4` (**14.506s**)
+  - Real Solo+Duo empty UI still + Eve VO → phone master (keep phone audio; no VO over call)
+  - VO: “Dojo is made for coding. Because two lanes work together via Lane Assist. Dojo Solo. And Dojo Duo.”
+  - Still: `after/final/LOCKED-solo-duo-empty.png` · VO: `audio/final/lane-assist-solo-duo-bridge.mp3` · phone: `video/work/LOCKED-lane-assist-phone-only.mp4`
+- **No cumulative until user says they are happy with the locked section standalone**
+- Lane Assist cumulative tip: `02.20.00-lane-assist/video/final/CUMULATIVE-through-02.20.00.mp4` (**93.290s**)
+- More than coding **LOCKED**: `02.30.00-more-than-coding/video/final/LOCKED-02.30-more-than-coding.mp4` (**18.950s**)
+  - Dojo-only → pills one at a time → VO: multimedia powerhouse + features + “and more.”
+  - Cumulative tip: `CUMULATIVE-through-02.30.00.mp4` (**118.314s**, with chapter title cards)
+  - Title cards (local): `99.00.00-full-reel/after/final/title-cards/` + per-section `after/final/title-card-*.png`
+  - Rebuild cumulative with cards: `python3 scripts/build-cumulative-cards.py` (temp-dir joins, self-cleaning)
+- **Title cards (chapter pages):** local only — `python3 scripts/make-title-card.py "PRIMARY" "Secondary" -o …`
+  - Spec + pack: `public/sections/99.00.00-full-reel/text/TITLE-CARDS.md`
+  - Pack folder: `public/sections/99.00.00-full-reel/after/final/title-cards/`
+  - Exact torii: `00.00.00-brand/after/final/dojo-torii-icon-exact.png`
+  - No AI image gen for title cards; Brand + What is Dojo have no cards
+- Credits / giants **LOCKED**: `17.00.00-credits` still + `LOCKED-16-credits.mp4` — **opens What is Dojo**
+  - VO: “Walk on the shoulders of giants. / Build with humility. / One day, you may walk among them.”
+- What is Dojo **LOCKED**: `01.00.00-what-is-dojo/video/final/LOCKED-01-what-is-dojo.mp4` (~23.5s)
+  - Giants VO → **1s seamless dissolve** → 1s pause → gem VO (“same giants…”)
+  - Rebuild: `build-credits-hold.py` → `build-connection-pingpong.py` → `build-what-is-dojo.py`
+  - **Cumulative** brand→intro: `CUMULATIVE-through-01.00.01.mp4` (~37.17s) — **LOCKED picture stream**; 0.25s clean seam with no double exposure/ghost frame. For VO changes, remux audio only; never rebuild this picture with the generic cumulative builder.
+  - Cumulative builder: `scripts/build-cumulative-through.py <folder>` — each spine section gets standalone + prepend chain
+  - **Standalone vs cumulative (workflow law):**
+    - **Standalone** `LOCKED-…mp4` per section = **source of truth** (edit/swap here)
+    - **Cumulative** `CUMULATIVE-through-…mp4` = **preview only** up to that point (for us to watch progress) — not the ship master
+    - **Final reel** at the end = assemble from **individual standalones** (or take last cumulative only if every section is already perfect)
+    - Changing a middle section = rebuild that standalone + re-assemble final; do **not** treat cumulative as the only chain
+  - **Canonical section join:** preserve the outgoing section and its audio in full; apply a **300ms dissolve at the start of the incoming section**, with the incoming audio fading in over the same 300ms. Never overlap into or shorten the outgoing section.
+  - **Seams must be very smooth** at every section join (brand→intro, intro→code, …). No hard cuts, pop frames, audio loss, or clicks; use the canonical 300ms incoming transition unless a section has an explicitly locked exception.

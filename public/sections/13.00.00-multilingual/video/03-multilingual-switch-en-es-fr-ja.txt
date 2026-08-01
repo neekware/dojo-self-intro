@@ -1,0 +1,4 @@
+file '/Users/val/Sandbox/Release/main/ads/power-showcase/public/sections/13.00.00-multilingual/video/lang/heavenly-en-sub.mp4'
+file '/Users/val/Sandbox/Release/main/ads/power-showcase/public/sections/13.00.00-multilingual/video/lang/heavenly-es-sub.mp4'
+file '/Users/val/Sandbox/Release/main/ads/power-showcase/public/sections/13.00.00-multilingual/video/lang/heavenly-fr-sub.mp4'
+file '/Users/val/Sandbox/Release/main/ads/power-showcase/public/sections/13.00.00-multilingual/video/lang/heavenly-ja-sub.mp4'
