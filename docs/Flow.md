@@ -9,9 +9,12 @@
 - Render: `pnpm render` → `out/dojo-power-showcase.mp4`
 - Origin film (Val) stays for “who created you”; main site video is capability-only, no creator face
 - Dojo X packaging: **torii icon only** + cursive X (no griffin on products)
-- Finale **LOCKED**: `15.00.00-final/video/final/LOCKED-15-final.mp4` (**16.085s**)
+- Finale **LOCKED**: `15.00.00-final/video/final/LOCKED-15-final.mp4` (**17.280s measured**)
   - FINALE card → 12-tile slow-mo montage (tiles stay put) → torii splash + download CTA
-  - **Torii splash is the last frame of the reel**
+- Website hero **LOCKED**: `15.00.00-final/video/final/LOCKED-15-website-hero-loop.mp4` (**77.767s**)
+  - Short capability reel → coding bridge → multimedia powerhouse → closing narration restored from 303.293s.
+  - Finale card removed; final shot dissolves to the exact opening frame and holds silently for a seamless website reset.
+  - Full construction notes: `15.00.00-final/text/SHORT-HERO-LOCKED.md`.
 - Kids tutor **LOCKED**: `14.00.00-kids-tutor/video/final/LOCKED-14-kids-tutor.mp4` (**28.8s**)
   - TEACH SAFELY card + VO → girl from 3.018 → quadratic tutor (Sarah) → Access Control
 - Diagrams+equations **LOCKED**: `13.10.00-diagrams-equations/video/final/LOCKED-13.10-diagrams-equations.mp4` (**17.5s**)
@@ -45,6 +48,8 @@
   - Tail-only trim at **8.860s**; head turn **3.650s**; left-anchored 1.68× push; man + Asian woman retained
   - Tight no-laugh Eve VO starts **0.200s**; rebuild/finalize: `node scripts/trim-ears-final.js`
 - **Lane Assist follows Talk → Listen** in reel order; folder `02.20.00-lane-assist`
+- Automation proof **LOCKED**: `02.24.00-automation/video/final/LOCKED-02.24-automation.mp4` (**32.116s**) — smooth narrated splash → captured multi-step browser run; audio is baked into the locked MP4.
+- Code review proof **LOCKED**: `02.25.00-code-review-lane-assist/video/final/LOCKED-02.25-code-review-lane-assist.mp4` (**107.667s**) — coding workflow → independent Lane Assist challenge; audio is baked into the locked MP4.
 - **Multimedia chapter order (killer first):** try-on `03.00.00-tryon` → architecture `04.00.00-architecture-hq` → products `05`–`07` → characters/promo `08`–`12`
 - Lane Assist **LOCKED + approved standalone**: `public/sections/02.20.00-lane-assist/video/final/LOCKED-lane-assist.mp4` (**14.506s**)
   - Real Solo+Duo empty UI still + Eve VO → phone master (keep phone audio; no VO over call)

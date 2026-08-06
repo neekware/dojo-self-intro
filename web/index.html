@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#dce7ec" />
+    <meta name="description" content="Solstice — a cinematic alpine fashion editorial." />
+    <title>Solstice — Alpine Editorial</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="hero" id="top">
+      <video
+        class="hero-media"
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="auto"
+        poster="./assets/images/alpine-swimwear-editorial.jpg"
+        aria-label="Model walking through a sunlit alpine landscape"
+      >
+        <source src="./assets/videos/alpine-swimwear-walk.mp4" type="video/mp4" />
+      </video>
+
+      <div class="grade" aria-hidden="true"></div>
+      <div class="grain" aria-hidden="true"></div>
+
+      <header class="nav">
+        <a class="wordmark" href="#top" aria-label="Solstice home">
+          <span class="mark">S</span>
+          <span>Solstice</span>
+        </a>
+        <p class="issue">Alpine Study · 01</p>
+        <button class="sound" type="button" aria-label="Toggle film sound" aria-pressed="false">
+          <span class="sound-bars" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span class="sound-label">Sound off</span>
+        </button>
+      </header>
+
+      <section class="content">
+        <p class="eyebrow">Winter 2026 · Editorial Film</p>
+        <h1>Cold air.<br /><em>Golden light.</em></h1>
+        <p class="lede">A study in contrast, movement, and quiet confidence—captured above the clouds.</p>
+        <button class="watch" type="button" aria-label="Play the editorial film with sound">
+          <span class="play" aria-hidden="true">▶</span>
+          Watch with sound
+        </button>
+      </section>
+
+      <aside class="folio" aria-label="Editorial folio one of one">
+        <span>01</span><i></i><span>01</span>
+      </aside>
+
+      <div class="timeline" aria-hidden="true">
+        <span class="timeline-fill"></span>
+      </div>
+
+      <a class="discover" href="#manifesto">
+        <span class="mouse" aria-hidden="true"><i></i></span>
+        Discover the story
+      </a>
+    </main>
+
+    <section class="manifesto" id="manifesto">
+      <p class="section-kicker">Where seasons collide</p>
+      <h2>Summer meets<br /><em>the summit.</em></h2>
+      <p class="statement">Softness against the severe. Warmth against the wild. A fifteen-second fashion film shaped by altitude and light.</p>
+      <a class="replay" href="#top">Replay editorial <span aria-hidden="true">↑</span></a>
+    </section>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

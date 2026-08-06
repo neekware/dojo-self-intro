@@ -42,7 +42,9 @@ Folders use **zero-padded** `MAJOR.MINOR.PATCH-slug` so the tree sorts in film/b
 | 2.0.0 | `02.00.00-stt-talk` | **STT / Talk to Dojo** — keyboard → microphone | **LOCKED** — `LOCKED-02-stt.mp4` (~15.7s) |
 | 2.10.0 | `02.10.00-tts-listen` | **TTS / Listen to Dojo** — wall of text → evolved eyes → selective ears | **LOCKED** — opener + eyes + ears |
 | 2.20.0 | `02.20.00-lane-assist` | Lane Assist — Solo → Duo → peer phone call | **LOCKED** — `LOCKED-lane-assist.mp4` |
-| 2.30.0 | `02.30.00-more-than-coding` | More than coding — Dojo only → pills one at a time | **LOCKED picture** — `LOCKED-02.30-more-than-coding.mp4` (~15s) |
+| 2.24.0 | `02.24.00-automation` | Browser automation — narrated splash → captured multi-step run | **LOCKED** — `LOCKED-02.24-automation.mp4` (32.116s) |
+| 2.25.0 | `02.25.00-code-review-lane-assist` | Coding & code review — cross-model Lane Assist challenge | **LOCKED** — `LOCKED-02.25-code-review-lane-assist.mp4` (107.667s) |
+| 2.30.0 | `02.30.00-more-than-coding` | More than coding — Dojo only → pills one at a time | **LOCKED picture** — `LOCKED-02.30-more-than-coding.mp4` (18.950s) |
 | 3.0.0 | `03.00.00-tryon` | **KILLER** — person + garment → try-on → film | ready |
 | 4.0.0 | `04.00.00-architecture-hq` | Sketch → photoreal → flyover | ready |
 | 5.0.0 | `05.00.00-dojox-combine` | **Dojo X** bar + chips + soda → one combined shot | **LOCKED** |
@@ -50,13 +52,14 @@ Folders use **zero-padded** `MAJOR.MINOR.PATCH-slug` so the tree sorts in film/b
 | 7.0.0 | `07.00.00-dojox-perfume` | **Dojo X** perfume — sample → hero still life | ready |
 | 8.0.0 | `08.00.00-character-voice` | Portrait alive + narrator VO | partial |
 | 9.0.0 | `09.00.00-promo-motion` | Still → promo orbit | ready |
-| 10.0.0 | `99.00.00-full-reel` | Assembled cut + master audio | v1 done; v2 pending |
-| 11.0.0 | `09.10.00-lipsync` | Still → lip-sync talk | ready |
+| 9.10.0 | `09.10.00-lipsync` | Still → lip-sync talk | ready |
 | 12.0.0 | `12.00.00-character-life` | Still character → life | ready |
 | 13.0.0 | `13.00.00-multilingual` | Languages — card+VO → EN ZH FA FR AR (17.9s) | **LOCKED** |
+| 13.10.0 | `13.10.00-diagrams-equations` | Native diagrams, charts, and equations | **LOCKED** |
 | 14.0.0 | `14.00.00-kids-tutor` | Kid tutor + access control | **LOCKED** |
-| 15.0.0 | `13.10.00-diagrams-equations` | Native diagrams & charts | **LOCKED** |
-| 17.0.0 | `17.00.00-credits` | Giants still+VO source (**opens What is Dojo**) | **LOCKED** |
+| 15.0.0 | `15.00.00-final` | Full-reel finale + loop-ready website hero | **LOCKED** — `LOCKED-15-final.mp4` + `LOCKED-15-website-hero-loop.mp4` |
+| 17.0.0 | `99.00.00-archive/17.00.00-credits` | Giants still+VO source (**opens What is Dojo**) | **LOCKED archive** |
+| 99.0.0 | `99.00.00-archive` | Historical full-reel and retired working material | archive |
 
 ## Rules
 
