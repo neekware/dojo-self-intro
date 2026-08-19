@@ -1,0 +1,8 @@
+# Locked final is on CDN + NAS. Do not commit media.
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.png
+*.jpg
+!MANIFEST.md

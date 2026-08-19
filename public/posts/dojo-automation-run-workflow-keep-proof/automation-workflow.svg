@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Dojo automation workflow</title>
+  <desc id="desc">A five-stage automation workflow from defining an outcome through browser execution, intelligent waiting, verification, and saved proof.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071117"/><stop offset="1" stop-color="#121522"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#08d9e8"/><stop offset="1" stop-color="#ff8a00"/></linearGradient>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0L12 6L0 12Z" fill="#ff8a00"/></marker>
+    <filter id="shadow"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-opacity=".38"/></filter>
+    <style>
+      .title{font:700 48px Inter,system-ui,sans-serif;fill:#f8fafc}.sub{font:400 22px Inter,system-ui,sans-serif;fill:#94a3b8}
+      .card{fill:#121c26;stroke:#24404b;stroke-width:2;filter:url(#shadow)}.num{font:700 21px Inter,system-ui,sans-serif;fill:#071117;text-anchor:middle}
+      .label{font:700 24px Inter,system-ui,sans-serif;fill:#f8fafc;text-anchor:middle}.hint{font:400 17px Inter,system-ui,sans-serif;fill:#94a3b8;text-anchor:middle}
+      .edge{fill:none;stroke:#ff8a00;stroke-width:4;marker-end:url(#arrow)}.foot{font:600 21px Inter,system-ui,sans-serif;fill:#cbd5e1;text-anchor:middle}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/><circle cx="1500" cy="80" r="190" fill="#08d9e8" opacity=".05"/><circle cx="110" cy="850" r="230" fill="#ff8a00" opacity=".05"/>
+  <text x="100" y="105" class="title">From outcome to evidence</text><text x="100" y="148" class="sub">A repeatable automation run has a clear beginning, observable decisions, and inspectable proof.</text>
+  <rect x="110" y="315" width="250" height="190" rx="28" class="card"/><circle cx="235" cy="315" r="25" fill="#08d9e8"/><text x="235" y="322" class="num">1</text><text x="235" y="390" class="label">Define outcome</text><text x="235" y="428" class="hint">State the result</text><text x="235" y="455" class="hint">and boundaries</text>
+  <rect x="405" y="315" width="250" height="190" rx="28" class="card"/><circle cx="530" cy="315" r="25" fill="#20cbd2"/><text x="530" y="322" class="num">2</text><text x="530" y="390" class="label">Run browser</text><text x="530" y="428" class="hint">Navigate, inspect,</text><text x="530" y="455" class="hint">click, type, upload</text>
+  <rect x="700" y="315" width="250" height="190" rx="28" class="card"/><circle cx="825" cy="315" r="25" fill="#77b982"/><text x="825" y="322" class="num">3</text><text x="825" y="390" class="label">Wait intelligently</text><text x="825" y="428" class="hint">Watch real page</text><text x="825" y="455" class="hint">conditions and timers</text>
+  <rect x="995" y="315" width="250" height="190" rx="28" class="card"/><circle cx="1120" cy="315" r="25" fill="#cf9b34"/><text x="1120" y="322" class="num">4</text><text x="1120" y="390" class="label">Verify result</text><text x="1120" y="428" class="hint">Inspect output, state,</text><text x="1120" y="455" class="hint">and downloaded files</text>
+  <rect x="1290" y="315" width="250" height="190" rx="28" class="card"/><circle cx="1415" cy="315" r="25" fill="#ff8a00"/><text x="1415" y="322" class="num">5</text><text x="1415" y="390" class="label">Keep proof</text><text x="1415" y="428" class="hint">Save screenshots,</text><text x="1415" y="455" class="hint">recordings, artifacts</text>
+  <path d="M360 410H395" class="edge"/><path d="M655 410H690" class="edge"/><path d="M950 410H985" class="edge"/><path d="M1245 410H1280" class="edge"/>
+  <path d="M1415 505C1415 700 235 700 235 515" fill="none" stroke="url(#accent)" stroke-width="3" stroke-dasharray="11 11" marker-end="url(#arrow)"/><text x="825" y="683" class="foot">Use the evidence to repeat, refine, or safely stop the next run.</text>
+  <text x="800" y="825" class="foot">Run the workflow. Keep the proof.</text>
+</svg>
