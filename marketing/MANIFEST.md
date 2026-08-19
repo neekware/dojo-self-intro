@@ -13,7 +13,7 @@ Intermediates live on the network drive, not in GitHub.
 ## Locked final (delivery)
 
 - **CDN:** `https://assets.dojoworkspace.io/media/production/videos/2026/08/hero.final.mp4`
-- **Local (not committed):** `marketing/FINAL-LOCKED-MarketingHero-harmonized.mp4` (same file, 138.67s, 1080p30, −14 LUFS)
+- **Tracked in git:** `marketing/FINAL-LOCKED-MarketingHero-harmonized.mp4` (138.67s, 1080p30, −14 LUFS)
 - **NAS copy:** `render/FINAL-LOCKED-MarketingHero-harmonized.mp4`
 - **FCP original (pre-harmonize):** NAS `render/FINAL-LOCKED-MarketingHero.mp4`
 - **Previous engine master:** NAS `render/PREV-FINAL-youtube-1080p30-BACKUP.mp4`

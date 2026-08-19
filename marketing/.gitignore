@@ -1,8 +1,9 @@
-# Locked final is on CDN + NAS. Do not commit media.
+# Transients stay on the NAS. Only the locked final is tracked.
 *.mp4
 *.mov
 *.wav
 *.mp3
 *.png
 *.jpg
+!FINAL-LOCKED-MarketingHero-harmonized.mp4
 !MANIFEST.md
