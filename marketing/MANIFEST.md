@@ -24,6 +24,15 @@ Older CDN files kept: UUID `a3f5e803-…` and `hero.v2.mp4`.
 
 See `/Volumes/Public/Dojo/ads/marketing/video/main/render/MANIFEST.md` for dissolve offsets and VO start times. Numbered picture stems are in `render/` (`01-pic-talk.mp4` … `05-pic-close.mp4`) and aliases under `intermediates/`.
 
+## WINGS — Canada and United States friendship film
+
+- **Tracked final:** `marketing/WINGS/WINGS-FINAL-v1.mp4`
+- **Campaign copy:** `marketing/WINGS/CAPTION.md`
+- **Release notes:** `marketing/WINGS/README.md`
+- **Production-volume final:** `/Volumes/Public/Dojo/ads/marketing/video/main/WINGS/final/WINGS-FINAL-v1.mp4`
+- **Production archive:** `/Volumes/Public/Dojo/ads/marketing/video/main/WINGS/`
+- **Technical:** 135.731938s, 1280×720, H.264/AAC, SHA-256 `0d0c40e691fa1636dc3e33d0354ee43b47562684a634a01c1a4439bf45f5448f`
+
 ## Homepage
 
 Marketing site hero is `hero2` → `hero.final.mp4` (PR #66 / #67).
